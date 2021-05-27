@@ -2,7 +2,6 @@ import React,{useEffect,useState} from 'react'
 
 const Api = ()=>{
     const [cat,setCat] = useState();
-    const [click, setClick] = useState();
     useEffect( ()=>{
         const Sample = async ()=>{
         const wrapper = await fetch(`https://dog.ceo/api/breeds/image/random`);  //console.log(wrapper);
